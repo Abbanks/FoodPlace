@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food Place</string>
+    <string name="food_place">Food Place</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="time">8 a.m - 10 p.m</string>
+    <string name="number">07044444557</string>
+    <string name="mail">www.foodplace@gmail.com</string>
+    <string name="about">Food Place is an online food delivery platform serving meals to customers at their doorstep. We prepare grilled food, snacks and small chops. Order good food from us any day.</string>
+</resources>

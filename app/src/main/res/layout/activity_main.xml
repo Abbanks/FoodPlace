@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/foodPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="fill_vertical"
+
+            android:text="@string/food_place"
+            android:textColor="#B71C1C"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="52dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/foodPlace"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foodPlace"
+            android:layout_marginEnd="0dp"
+            app:srcCompat="@drawable/grill1" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/food"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="8dp"
+            android:text="@string/about"
+            android:textColor="#232F34"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/open"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/about"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/open" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="27dp"
+            android:layout_toEndOf="@+id/open"
+            android:text="@string/time"
+            android:textColor="#B71C1C" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/open"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:text="@string/contact_us"
+            android:textColor="#232F34"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/contact"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/phone"
+            android:text="@string/number"
+            android:textColor="#B71C1C" />
+
+        <ImageView
+            android:id="@+id/mail_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/phone"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/mail" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/mail_icon"
+            android:text="@string/mail"
+            android:textColor="#B71C1C" />
+
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_below="@id/mail"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/insta" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="53dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/mail"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/insta"
+            app:srcCompat="@drawable/facebook" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
